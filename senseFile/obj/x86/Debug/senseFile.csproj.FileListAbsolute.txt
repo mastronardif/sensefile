@@ -1,0 +1,9 @@
+C:\Users\mastronf\Projects\senseFile\senseFile\bin\Debug\senseFile.exe
+C:\Users\mastronf\Projects\senseFile\senseFile\bin\Debug\senseFile.pdb
+C:\Users\mastronf\Projects\senseFile\senseFile\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mastronf\Projects\senseFile\senseFile\obj\x86\Debug\senseFile.exe
+C:\Users\mastronf\Projects\senseFile\senseFile\obj\x86\Debug\senseFile.pdb
+C:\FxM\Downloads\senseFile\senseFile\bin\Debug\senseFile.exe
+C:\FxM\Downloads\senseFile\senseFile\bin\Debug\senseFile.pdb
+C:\FxM\Downloads\senseFile\senseFile\obj\x86\Debug\senseFile.exe
+C:\FxM\Downloads\senseFile\senseFile\obj\x86\Debug\senseFile.pdb
