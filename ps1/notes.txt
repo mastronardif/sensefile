@@ -1,0 +1,30 @@
+1. Get the bearer token
+2. Paste in postman
+   	Give someone the time exspirey token.
+3. use postman / Azure.
+	To Do: add more api's to postman / Azure.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+File Share:
+RG: afrlcstoragedev
+
+on a windows VM in Azure.
+> net use [drive letter] \\afrlcstoragedev.file.core.windows.net\myfileshare /u:afrlcstoragedev [storage account access key]
+net use Y: \\afrlcstoragedev.file.core.windows.net\myfileshare /u:afrlcstoragedev 2Xf0TMmS4H7DQ65ClthjPy/PA1MBoYJTjkGyzThfbdFbJ3QojSbnMDv2PmuhC0Ra0212VSl6wQVlIdDbWqwVRw==
+
+
+other:
+https://azure.microsoft.com/en-us/documentation/articles/storage-dotnet-how-to-use-files/
+https://blogs.msdn.microsoft.com/windowsazurestorage/2014/05/12/introducing-microsoft-azure-file-service/
+https://robindotnet.wordpress.com/2014/07/09/azure-files-how-to-manage-shares-directories-and-files/
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Scrap
+select-string .\*.* -pattern "evildoer"
+select-string .\*.log -pattern "ERROR"
+select-string .\afrLoanCenterTaskQueueReader*.log -pattern "ERROR"
+select-string .\afrLoanCenterTaskQueueReader*.log -pattern "ERROR|FATAL"
+PS Y:\logs> (sls .\afrODSAPPSdev\afrLoanCenterTaskQueueReader.log -pattern "ERROR|FATAL" -CaseSensitive).count
+PS Y:\logs> (sls .\afrODSAPPSdev\afrLoanCenterTaskQueueReader.log -pattern "ERROR|FATAL" -CaseSensitive) | % {"$($_.linenumber):$($_.line)"}
+
+

@@ -3,7 +3,7 @@
 $SubscriptionName = "Free Trial"
 
 # Give a name to your new storage account. It must be lowercase!
-$StorageAccountName = "yourstorageaccountname"
+$StorageAccountName = "fxmystorage"
 
 # Choose "West US" as an example.
 $Location = "East US"
