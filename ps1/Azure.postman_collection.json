@@ -1,0 +1,72 @@
+{
+	"id": "b4bc55cf-3414-750f-57de-a8e633bf2e91",
+	"name": "Azure",
+	"description": "",
+	"order": [
+		"476083e9-504f-74e2-4b92-0370fe67712f",
+		"ace6ae91-be17-41d5-4f8e-e8414a6b6b20",
+		"638555cf-edb7-f453-2121-0f3f25041605"
+	],
+	"folders": [],
+	"timestamp": 1477444284071,
+	"owner": "36771",
+	"public": false,
+	"requests": [
+		{
+			"id": "476083e9-504f-74e2-4b92-0370fe67712f",
+			"headers": "Content-Type: application/json\nAuthorization: {{bearer}}\n",
+			"url": "https://management.azure.com/subscriptions/{{subscriptionID}}/resourcegroups?api-version=2015-01-01",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b4bc55cf-3414-750f-57de-a8e633bf2e91",
+			"data": null,
+			"dataMode": "params",
+			"name": "Resource Groups",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1477444284041,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "638555cf-edb7-f453-2121-0f3f25041605",
+			"headers": "Content-Type: application/json\nAuthorization: {{bearer}}\n",
+			"url": "https://fxmystorage.file.core.windows.net/myfileshare/bobotheclown.txt",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1478313083311,
+			"name": "Get File",
+			"description": "",
+			"collectionId": "b4bc55cf-3414-750f-57de-a8e633bf2e91",
+			"responses": []
+		},
+		{
+			"id": "ace6ae91-be17-41d5-4f8e-e8414a6b6b20",
+			"headers": "Content-Type: application/json\nAuthorization: {{bearer}}\n",
+			"url": "https://management.azure.com/subscriptions/{{subscriptionID}}/resourceGroups/dashboards?api-version=2014-04-01",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1477447697218,
+			"name": "Subscriptions",
+			"description": "",
+			"collectionId": "b4bc55cf-3414-750f-57de-a8e633bf2e91",
+			"responses": []
+		}
+	]
+}
